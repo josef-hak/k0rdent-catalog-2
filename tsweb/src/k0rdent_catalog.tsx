@@ -1,20 +1,20 @@
 import React, { useState, useMemo, useEffect } from "react";
 
 var DARK = {
-  bg0:"#0a0e1a",bg1:"#0f1424",bg2:"#151b2e",bg3:"#1c2540",
-  border:"#1e2d4a",borderHi:"#2a3f6a",
-  teal:"#00c8c8",tealBg:"#00c8c810",cyan:"#00e5ff",
-  textPri:"#e8edf8",textSec:"#7a8aaa",textMut:"#3d4d6a",
-  green:"#00d48a",amber:"#f5a623",red:"#ff4d6a",purple:"#a78bfa",
-  code:"#7dd3fc",
+  bg0:"#1e1e20",bg1:"#3c3d42",bg2:"#555760",bg3:"#707587",
+  border:"#555760",borderHi:"#707587",
+  teal:"#1aaaff",tealBg:"#1aaaff10",cyan:"#00f7db",
+  textPri:"#f1f4fb",textSec:"#acb2c6",textMut:"#707587",
+  green:"#47fc99",amber:"#fae400",red:"#d7263d",purple:"#b07bff",
+  code:"#1aaaff",
 };
 var LIGHT = {
-  bg0:"#f0f4f8",bg1:"#ffffff",bg2:"#e8edf5",bg3:"#dce3ee",
-  border:"#c8d3e6",borderHi:"#a0b0cc",
-  teal:"#0097a7",tealBg:"#0097a710",cyan:"#0077b6",
-  textPri:"#0f1e3a",textSec:"#4a5a78",textMut:"#8a9ab8",
-  green:"#00875a",amber:"#b45309",red:"#c0162e",purple:"#6d28d9",
-  code:"#0550ae",
+  bg0:"#f1f4fb",bg1:"#ffffff",bg2:"#e4e9f7",bg3:"#c3c8db",
+  border:"#c3c8db",borderHi:"#acb2c6",
+  teal:"#007cc7",tealBg:"#007cc710",cyan:"#12c9ae",
+  textPri:"#1e1e20",textSec:"#555760",textMut:"#8e94a5",
+  green:"#35db78",amber:"#eac800",red:"#ae0630",purple:"#b07bff",
+  code:"#007cc7",
 };
 var B = Object.assign({}, DARK) as Record<string,string>;
 var IS_DARK = true;
@@ -1703,7 +1703,7 @@ export default function App() {
 
   if (loading || loadError) {
     return (
-      <div style={{fontFamily:"'Inter',-apple-system,sans-serif",background:B.bg0,minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column",gap:16}}>
+      <div style={{fontFamily:"'Overpass',-apple-system,sans-serif",background:B.bg0,minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column",gap:16}}>
         {loading && <span style={{color:B.teal,fontSize:16}}>Loading catalog...</span>}
         {loadError && <>
           <span style={{color:B.red,fontSize:14}}>{loadError}</span>
@@ -1714,7 +1714,7 @@ export default function App() {
   }
 
   return (
-    <div style={{fontFamily:"'Inter',-apple-system,sans-serif",background:B.bg0,minHeight:"100vh",padding:"0 0 40px"}}>
+    <div style={{fontFamily:"'Overpass',-apple-system,sans-serif",background:B.bg0,minHeight:"100vh",padding:"0 0 40px"}}>
       <style>{`
         @media (max-width: 640px) {
           .k0-nav-inner { flex-wrap: wrap; height: auto !important; padding: 8px 0 !important; gap: 6px !important; }
