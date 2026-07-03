@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "local-ai": {
+      "versions": [
+        "3.4.2"
+      ],
+      "scans": {
+        "3.4.2": {
+          "images": [
+            {
+              "image": "quay.io/go-skynet/local-ai:latest",
+              "critical": 0,
+              "high": 37,
+              "medium": 455,
+              "low": 67,
+              "unknown": 0,
+              "total": 559,
+              "packages": 730
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 559
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:58"
+}

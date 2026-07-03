@@ -1,0 +1,65 @@
+{
+  "charts": {
+    "network-operator": {
+      "versions": [
+        "26.4.0",
+        "25.10.0"
+      ],
+      "scans": {
+        "25.10.0": {
+          "images": [
+            {
+              "image": "nvcr.io/nvidia/cloud-native/network-operator:v25.10.0",
+              "critical": 6,
+              "high": 100,
+              "medium": 105,
+              "low": 30,
+              "unknown": 3,
+              "total": 244,
+              "packages": 173
+            },
+            {
+              "image": "nvcr.io/nvidia/mellanox/node-feature-discovery:network-operator-v25.10.0",
+              "critical": 10,
+              "high": 192,
+              "medium": 171,
+              "low": 34,
+              "unknown": 6,
+              "total": 413,
+              "packages": 141
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 657
+        },
+        "26.4.0": {
+          "images": [
+            {
+              "image": "nvcr.io/nvidia/cloud-native/network-operator:v26.4.0",
+              "critical": 0,
+              "high": 27,
+              "medium": 25,
+              "low": 27,
+              "unknown": 0,
+              "total": 79,
+              "packages": 136
+            },
+            {
+              "image": "nvcr.io/nvidia/mellanox/node-feature-discovery:network-operator-v26.4.0",
+              "critical": 0,
+              "high": 77,
+              "medium": 51,
+              "low": 28,
+              "unknown": 6,
+              "total": 162,
+              "packages": 144
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 241
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:59"
+}

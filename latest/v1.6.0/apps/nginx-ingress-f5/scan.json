@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "nginx-ingress-f5": {
+      "versions": [
+        "2.2.2"
+      ],
+      "scans": {
+        "2.2.2": {
+          "images": [
+            {
+              "image": "nginx/nginx-ingress:5.1.1",
+              "critical": 12,
+              "high": 129,
+              "medium": 229,
+              "low": 199,
+              "unknown": 40,
+              "total": 609,
+              "packages": 451
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 609
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:59"
+}

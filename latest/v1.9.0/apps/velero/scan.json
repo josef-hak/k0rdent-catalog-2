@@ -1,0 +1,96 @@
+{
+  "charts": {
+    "velero": {
+      "versions": [
+        "12.0.3",
+        "11.3.2",
+        "11.1.0",
+        "10.0.10",
+        "8.1.0"
+      ],
+      "scans": {
+        "10.0.10": {
+          "images": [
+            {
+              "image": "velero/velero:v1.16.1",
+              "critical": 6,
+              "high": 88,
+              "medium": 140,
+              "low": 46,
+              "unknown": 2,
+              "total": 282,
+              "packages": 217
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 282
+        },
+        "11.1.0": {
+          "images": [
+            {
+              "image": "velero/velero:v1.17.0",
+              "critical": 6,
+              "high": 89,
+              "medium": 119,
+              "low": 46,
+              "unknown": 2,
+              "total": 262,
+              "packages": 229
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 262
+        },
+        "11.3.2": {
+          "images": [
+            {
+              "image": "velero/velero:v1.17.1",
+              "critical": 6,
+              "high": 89,
+              "medium": 80,
+              "low": 42,
+              "unknown": 2,
+              "total": 219,
+              "packages": 229
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 219
+        },
+        "12.0.3": {
+          "images": [
+            {
+              "image": "docker.io/velero/velero:v1.18.1",
+              "critical": 0,
+              "high": 37,
+              "medium": 23,
+              "low": 16,
+              "unknown": 2,
+              "total": 78,
+              "packages": 233
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 78
+        },
+        "8.1.0": {
+          "images": [
+            {
+              "image": "velero/velero:v1.15.0",
+              "critical": 5,
+              "high": 81,
+              "medium": 132,
+              "low": 51,
+              "unknown": 2,
+              "total": 271,
+              "packages": 203
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 271
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:58"
+}

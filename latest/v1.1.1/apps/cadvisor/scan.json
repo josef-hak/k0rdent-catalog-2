@@ -1,0 +1,45 @@
+{
+  "charts": {
+    "cadvisor": {
+      "versions": [
+        "2.4.1",
+        "2.3.3"
+      ],
+      "scans": {
+        "2.3.3": {
+          "images": [
+            {
+              "image": "gcr.io/cadvisor/cadvisor:v0.49.1",
+              "critical": 5,
+              "high": 50,
+              "medium": 71,
+              "low": 16,
+              "unknown": 1,
+              "total": 143,
+              "packages": 131
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 143
+        },
+        "2.4.1": {
+          "images": [
+            {
+              "image": "gcr.io/cadvisor/cadvisor:v0.52.1",
+              "critical": 3,
+              "high": 38,
+              "medium": 41,
+              "low": 3,
+              "unknown": 1,
+              "total": 86,
+              "packages": 147
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 86
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:56"
+}

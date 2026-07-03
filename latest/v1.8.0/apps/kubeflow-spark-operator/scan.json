@@ -1,0 +1,45 @@
+{
+  "charts": {
+    "kubeflow-spark-operator": {
+      "versions": [
+        "2.4.0",
+        "2.3.0"
+      ],
+      "scans": {
+        "2.3.0": {
+          "images": [
+            {
+              "image": "ghcr.io/kubeflow/spark-operator/controller:2.3.0",
+              "critical": 23,
+              "high": 183,
+              "medium": 3804,
+              "low": 333,
+              "unknown": 1,
+              "total": 4344,
+              "packages": 771
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 4344
+        },
+        "2.4.0": {
+          "images": [
+            {
+              "image": "ghcr.io/kubeflow/spark-operator/controller:2.4.0",
+              "critical": 23,
+              "high": 177,
+              "medium": 3454,
+              "low": 301,
+              "unknown": 1,
+              "total": 3956,
+              "packages": 773
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 3956
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:58"
+}

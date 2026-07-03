@@ -1,0 +1,45 @@
+{
+  "charts": {
+    "kiali-operator": {
+      "versions": [
+        "2.21.0",
+        "2.19.0"
+      ],
+      "scans": {
+        "2.19.0": {
+          "images": [
+            {
+              "image": "quay.io/kiali/kiali-operator:v2.19.0",
+              "critical": 2,
+              "high": 72,
+              "medium": 354,
+              "low": 300,
+              "unknown": 1,
+              "total": 729,
+              "packages": 353
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 729
+        },
+        "2.21.0": {
+          "images": [
+            {
+              "image": "quay.io/kiali/kiali-operator:v2.21.0",
+              "critical": 2,
+              "high": 70,
+              "medium": 341,
+              "low": 296,
+              "unknown": 1,
+              "total": 710,
+              "packages": 353
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 710
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:55"
+}

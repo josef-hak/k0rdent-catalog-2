@@ -1,0 +1,153 @@
+{
+  "charts": {
+    "istio-cni": {
+      "versions": [
+        "1.29.2",
+        "1.28.3",
+        "1.27.1",
+        "1.24.3"
+      ],
+      "scans": {
+        "1.24.3": {
+          "images": [
+            {
+              "image": "docker.io/istio/install-cni:1.24.3",
+              "critical": 4,
+              "high": 73,
+              "medium": 230,
+              "low": 111,
+              "unknown": 2,
+              "total": 420,
+              "packages": 280
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 420
+        },
+        "1.27.1": {
+          "images": [
+            {
+              "image": "docker.io/istio/install-cni:1.27.1",
+              "critical": 4,
+              "high": 75,
+              "medium": 172,
+              "low": 94,
+              "unknown": 2,
+              "total": 347,
+              "packages": 278
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 347
+        },
+        "1.28.3": {
+          "images": [
+            {
+              "image": "docker.io/istio/install-cni:1.28.3",
+              "critical": 4,
+              "high": 74,
+              "medium": 137,
+              "low": 90,
+              "unknown": 2,
+              "total": 307,
+              "packages": 282
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 307
+        },
+        "1.29.2": {
+          "images": [
+            {
+              "image": "docker.io/istio/install-cni:1.29.2",
+              "critical": 0,
+              "high": 58,
+              "medium": 88,
+              "low": 46,
+              "unknown": 2,
+              "total": 194,
+              "packages": 289
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 194
+        }
+      }
+    },
+    "istio-ztunnel": {
+      "versions": [
+        "1.29.2",
+        "1.28.3",
+        "1.27.1",
+        "1.24.3"
+      ],
+      "scans": {
+        "1.24.3": {
+          "images": [
+            {
+              "image": "docker.io/istio/ztunnel:1.24.3",
+              "critical": 0,
+              "high": 6,
+              "medium": 147,
+              "low": 105,
+              "unknown": 0,
+              "total": 258,
+              "packages": 150
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 258
+        },
+        "1.27.1": {
+          "images": [
+            {
+              "image": "docker.io/istio/ztunnel:1.27.1",
+              "critical": 0,
+              "high": 4,
+              "medium": 98,
+              "low": 90,
+              "unknown": 0,
+              "total": 192,
+              "packages": 154
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 192
+        },
+        "1.28.3": {
+          "images": [
+            {
+              "image": "docker.io/istio/ztunnel:1.28.3",
+              "critical": 0,
+              "high": 3,
+              "medium": 89,
+              "low": 88,
+              "unknown": 0,
+              "total": 180,
+              "packages": 154
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 180
+        },
+        "1.29.2": {
+          "images": [
+            {
+              "image": "docker.io/istio/ztunnel:1.29.2",
+              "critical": 0,
+              "high": 2,
+              "medium": 64,
+              "low": 46,
+              "unknown": 0,
+              "total": 112,
+              "packages": 154
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 112
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:57"
+}

@@ -1,0 +1,65 @@
+{
+  "charts": {
+    "opentelemetry-operator": {
+      "versions": [
+        "0.105.1",
+        "0.99.2"
+      ],
+      "scans": {
+        "0.105.1": {
+          "images": [
+            {
+              "image": "ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:0.144.0",
+              "critical": 2,
+              "high": 33,
+              "medium": 22,
+              "low": 1,
+              "unknown": 1,
+              "total": 59,
+              "packages": 207
+            },
+            {
+              "image": "quay.io/brancz/kube-rbac-proxy:v0.20.0",
+              "critical": 2,
+              "high": 30,
+              "medium": 30,
+              "low": 2,
+              "unknown": 1,
+              "total": 65,
+              "packages": 105
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 124
+        },
+        "0.99.2": {
+          "images": [
+            {
+              "image": "ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:0.138.0",
+              "critical": 2,
+              "high": 36,
+              "medium": 29,
+              "low": 1,
+              "unknown": 1,
+              "total": 69,
+              "packages": 173
+            },
+            {
+              "image": "quay.io/brancz/kube-rbac-proxy:v0.20.0",
+              "critical": 2,
+              "high": 30,
+              "medium": 30,
+              "low": 2,
+              "unknown": 1,
+              "total": 65,
+              "packages": 105
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 134
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:58"
+}

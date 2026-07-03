@@ -1,0 +1,79 @@
+{
+  "charts": {
+    "external-dns": {
+      "versions": [
+        "1.21.1",
+        "1.20.0",
+        "1.19.0",
+        "1.15.1"
+      ],
+      "scans": {
+        "1.15.1": {
+          "images": [
+            {
+              "image": "registry.k8s.io/external-dns/external-dns:v0.15.1",
+              "critical": 2,
+              "high": 32,
+              "medium": 43,
+              "low": 3,
+              "unknown": 1,
+              "total": 81,
+              "packages": 206
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 81
+        },
+        "1.19.0": {
+          "images": [
+            {
+              "image": "registry.k8s.io/external-dns/external-dns:v0.19.0",
+              "critical": 2,
+              "high": 30,
+              "medium": 31,
+              "low": 2,
+              "unknown": 1,
+              "total": 66,
+              "packages": 194
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 66
+        },
+        "1.20.0": {
+          "images": [
+            {
+              "image": "registry.k8s.io/external-dns/external-dns:v0.20.0",
+              "critical": 2,
+              "high": 29,
+              "medium": 20,
+              "low": 1,
+              "unknown": 1,
+              "total": 53,
+              "packages": 196
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 53
+        },
+        "1.21.1": {
+          "images": [
+            {
+              "image": "registry.k8s.io/external-dns/external-dns:v0.21.0",
+              "critical": 0,
+              "high": 26,
+              "medium": 14,
+              "low": 0,
+              "unknown": 1,
+              "total": 41,
+              "packages": 198
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 41
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:55"
+}

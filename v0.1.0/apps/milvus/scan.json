@@ -1,0 +1,58 @@
+{
+  "charts": {
+    "milvus": {
+      "versions": [
+        "5.0.14"
+      ],
+      "scans": {
+        "5.0.14": {
+          "images": [
+            {
+              "image": "apachepulsar/pulsar:3.0.7",
+              "critical": 6,
+              "high": 74,
+              "medium": 378,
+              "low": 144,
+              "unknown": 0,
+              "total": 602,
+              "packages": 619
+            },
+            {
+              "image": "docker.io/milvusdb/etcd:3.5.25-r1",
+              "critical": 6,
+              "high": 88,
+              "medium": 114,
+              "low": 50,
+              "unknown": 3,
+              "total": 261,
+              "packages": 173
+            },
+            {
+              "image": "milvusdb/milvus:v2.6.11",
+              "critical": 4,
+              "high": 58,
+              "medium": 104,
+              "low": 85,
+              "unknown": 2,
+              "total": 253,
+              "packages": 389
+            },
+            {
+              "image": "minio/minio:RELEASE.2024-12-18T13-15-44Z",
+              "critical": 4,
+              "high": 76,
+              "medium": 125,
+              "low": 20,
+              "unknown": 2,
+              "total": 227,
+              "packages": 299
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 1343
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 09:00"
+}

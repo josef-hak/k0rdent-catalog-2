@@ -1,0 +1,45 @@
+{
+  "charts": {
+    "headlamp": {
+      "versions": [
+        "0.40.0",
+        "0.32.1"
+      ],
+      "scans": {
+        "0.32.1": {
+          "images": [
+            {
+              "image": "ghcr.io/headlamp-k8s/headlamp:v0.32.0",
+              "critical": 4,
+              "high": 56,
+              "medium": 59,
+              "low": 23,
+              "unknown": 1,
+              "total": 143,
+              "packages": 178
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 143
+        },
+        "0.40.0": {
+          "images": [
+            {
+              "image": "ghcr.io/headlamp-k8s/headlamp:v0.40.0",
+              "critical": 3,
+              "high": 46,
+              "medium": 34,
+              "low": 22,
+              "unknown": 1,
+              "total": 106,
+              "packages": 173
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 106
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:56"
+}

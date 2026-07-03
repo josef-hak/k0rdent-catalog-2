@@ -1,0 +1,45 @@
+{
+  "charts": {
+    "traefik": {
+      "versions": [
+        "40.3.0",
+        "39.0.8"
+      ],
+      "scans": {
+        "39.0.8": {
+          "images": [
+            {
+              "image": "docker.io/traefik:v3.6.13",
+              "critical": 0,
+              "high": 36,
+              "medium": 33,
+              "low": 20,
+              "unknown": 1,
+              "total": 90,
+              "packages": 370
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 90
+        },
+        "40.3.0": {
+          "images": [
+            {
+              "image": "docker.io/traefik:v3.7.4",
+              "critical": 0,
+              "high": 2,
+              "medium": 10,
+              "low": 20,
+              "unknown": 0,
+              "total": 32,
+              "packages": 381
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 32
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:59"
+}

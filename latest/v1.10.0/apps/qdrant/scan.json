@@ -1,0 +1,65 @@
+{
+  "charts": {
+    "qdrant": {
+      "versions": [
+        "1.16.3",
+        "1.15.4"
+      ],
+      "scans": {
+        "1.15.4": {
+          "images": [
+            {
+              "image": "docker.io/qdrant/qdrant:v1.15.4",
+              "critical": 7,
+              "high": 74,
+              "medium": 145,
+              "low": 141,
+              "unknown": 36,
+              "total": 403,
+              "packages": 1471
+            },
+            {
+              "image": "registry.suse.com/bci/bci-base:latest",
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "unknown": 0,
+              "total": 0,
+              "packages": 144
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 403
+        },
+        "1.16.3": {
+          "images": [
+            {
+              "image": "docker.io/qdrant/qdrant:v1.16.3",
+              "critical": 6,
+              "high": 74,
+              "medium": 137,
+              "low": 136,
+              "unknown": 36,
+              "total": 389,
+              "packages": 1513
+            },
+            {
+              "image": "registry.suse.com/bci/bci-base:latest",
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "unknown": 0,
+              "total": 0,
+              "packages": 144
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 389
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:57"
+}

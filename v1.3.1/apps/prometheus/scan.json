@@ -1,0 +1,212 @@
+{
+  "charts": {
+    "prometheus": {
+      "versions": [
+        "29.2.1",
+        "28.9.0",
+        "27.5.1"
+      ],
+      "scans": {
+        "27.5.1": {
+          "images": [
+            {
+              "image": "quay.io/prometheus-operator/prometheus-config-reloader:v0.80.1",
+              "critical": 1,
+              "high": 32,
+              "medium": 42,
+              "low": 2,
+              "unknown": 1,
+              "total": 78,
+              "packages": 111
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.28.0",
+              "critical": 2,
+              "high": 60,
+              "medium": 84,
+              "low": 6,
+              "unknown": 2,
+              "total": 154,
+              "packages": 87
+            },
+            {
+              "image": "quay.io/prometheus/node-exporter:v1.9.0",
+              "critical": 1,
+              "high": 31,
+              "medium": 39,
+              "low": 2,
+              "unknown": 1,
+              "total": 74,
+              "packages": 47
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v3.2.1",
+              "critical": 4,
+              "high": 70,
+              "medium": 87,
+              "low": 6,
+              "unknown": 2,
+              "total": 169,
+              "packages": 185
+            },
+            {
+              "image": "quay.io/prometheus/pushgateway:v1.11.0",
+              "critical": 1,
+              "high": 32,
+              "medium": 43,
+              "low": 3,
+              "unknown": 1,
+              "total": 80,
+              "packages": 33
+            },
+            {
+              "image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.15.0",
+              "critical": 1,
+              "high": 30,
+              "medium": 40,
+              "low": 2,
+              "unknown": 1,
+              "total": 74,
+              "packages": 85
+            }
+          ],
+          "totalImages": 6,
+          "totalVulnerabilities": 629
+        },
+        "28.9.0": {
+          "images": [
+            {
+              "image": "quay.io/prometheus-operator/prometheus-config-reloader:v0.89.0",
+              "critical": 1,
+              "high": 28,
+              "medium": 17,
+              "low": 1,
+              "unknown": 1,
+              "total": 48,
+              "packages": 117
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.31.0",
+              "critical": 4,
+              "high": 56,
+              "medium": 32,
+              "low": 2,
+              "unknown": 2,
+              "total": 96,
+              "packages": 122
+            },
+            {
+              "image": "quay.io/prometheus/node-exporter:v1.10.2",
+              "critical": 1,
+              "high": 29,
+              "medium": 21,
+              "low": 1,
+              "unknown": 1,
+              "total": 53,
+              "packages": 45
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v3.9.1",
+              "critical": 4,
+              "high": 62,
+              "medium": 41,
+              "low": 2,
+              "unknown": 2,
+              "total": 111,
+              "packages": 226
+            },
+            {
+              "image": "quay.io/prometheus/pushgateway:v1.11.2",
+              "critical": 1,
+              "high": 29,
+              "medium": 21,
+              "low": 1,
+              "unknown": 1,
+              "total": 53,
+              "packages": 33
+            },
+            {
+              "image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0",
+              "critical": 2,
+              "high": 29,
+              "medium": 16,
+              "low": 1,
+              "unknown": 1,
+              "total": 49,
+              "packages": 108
+            }
+          ],
+          "totalImages": 6,
+          "totalVulnerabilities": 410
+        },
+        "29.2.1": {
+          "images": [
+            {
+              "image": "quay.io/prometheus-operator/prometheus-config-reloader:v0.90.1",
+              "critical": 0,
+              "high": 26,
+              "medium": 15,
+              "low": 0,
+              "unknown": 1,
+              "total": 42,
+              "packages": 115
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.32.0",
+              "critical": 0,
+              "high": 44,
+              "medium": 22,
+              "low": 0,
+              "unknown": 2,
+              "total": 68,
+              "packages": 114
+            },
+            {
+              "image": "quay.io/prometheus/node-exporter:v1.11.1",
+              "critical": 0,
+              "high": 25,
+              "medium": 13,
+              "low": 0,
+              "unknown": 1,
+              "total": 39,
+              "packages": 48
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v3.11.2",
+              "critical": 0,
+              "high": 50,
+              "medium": 25,
+              "low": 0,
+              "unknown": 2,
+              "total": 77,
+              "packages": 237
+            },
+            {
+              "image": "quay.io/prometheus/pushgateway:v1.11.2",
+              "critical": 1,
+              "high": 29,
+              "medium": 21,
+              "low": 1,
+              "unknown": 1,
+              "total": 53,
+              "packages": 33
+            },
+            {
+              "image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0",
+              "critical": 2,
+              "high": 29,
+              "medium": 16,
+              "low": 1,
+              "unknown": 1,
+              "total": 49,
+              "packages": 108
+            }
+          ],
+          "totalImages": 6,
+          "totalVulnerabilities": 328
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:58"
+}

@@ -1,0 +1,65 @@
+{
+  "charts": {
+    "apisix": {
+      "versions": [
+        "2.13.0",
+        "2.12.4"
+      ],
+      "scans": {
+        "2.12.4": {
+          "images": [
+            {
+              "image": "apache/apisix:3.14.1-ubuntu",
+              "critical": 0,
+              "high": 3,
+              "medium": 61,
+              "low": 52,
+              "unknown": 0,
+              "total": 116,
+              "packages": 104
+            },
+            {
+              "image": "docker.io/bitnamilegacy/etcd:latest",
+              "critical": 20,
+              "high": 157,
+              "medium": 261,
+              "low": 97,
+              "unknown": 21,
+              "total": 556,
+              "packages": 187
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 672
+        },
+        "2.13.0": {
+          "images": [
+            {
+              "image": "apache/apisix:3.15.0-ubuntu",
+              "critical": 0,
+              "high": 2,
+              "medium": 52,
+              "low": 38,
+              "unknown": 0,
+              "total": 92,
+              "packages": 104
+            },
+            {
+              "image": "docker.io/bitnamilegacy/etcd:latest",
+              "critical": 20,
+              "high": 157,
+              "medium": 261,
+              "low": 97,
+              "unknown": 21,
+              "total": 556,
+              "packages": 187
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 648
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:57"
+}

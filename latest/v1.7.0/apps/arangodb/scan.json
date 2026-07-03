@@ -1,0 +1,45 @@
+{
+  "charts": {
+    "kube-arangodb": {
+      "versions": [
+        "1.4.0",
+        "1.2.46"
+      ],
+      "scans": {
+        "1.2.46": {
+          "images": [
+            {
+              "image": "arangodb/kube-arangodb:1.2.46",
+              "critical": 2,
+              "high": 41,
+              "medium": 131,
+              "low": 37,
+              "unknown": 1,
+              "total": 212,
+              "packages": 271
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 212
+        },
+        "1.4.0": {
+          "images": [
+            {
+              "image": "arangodb/kube-arangodb:1.4.0",
+              "critical": 2,
+              "high": 41,
+              "medium": 87,
+              "low": 52,
+              "unknown": 1,
+              "total": 183,
+              "packages": 305
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 183
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:56"
+}

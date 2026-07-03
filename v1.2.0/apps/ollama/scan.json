@@ -1,0 +1,62 @@
+{
+  "charts": {
+    "ollama": {
+      "versions": [
+        "1.54.0",
+        "1.42.0",
+        "1.40.0"
+      ],
+      "scans": {
+        "1.40.0": {
+          "images": [
+            {
+              "image": "ollama/ollama:0.15.2",
+              "critical": 1,
+              "high": 31,
+              "medium": 107,
+              "low": 56,
+              "unknown": 4,
+              "total": 199,
+              "packages": 178
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 199
+        },
+        "1.42.0": {
+          "images": [
+            {
+              "image": "ollama/ollama:0.15.6",
+              "critical": 1,
+              "high": 31,
+              "medium": 107,
+              "low": 56,
+              "unknown": 4,
+              "total": 199,
+              "packages": 179
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 199
+        },
+        "1.54.0": {
+          "images": [
+            {
+              "image": "ollama/ollama:0.19.0",
+              "critical": 1,
+              "high": 31,
+              "medium": 93,
+              "low": 40,
+              "unknown": 4,
+              "total": 169,
+              "packages": 193
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 169
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 09:00"
+}

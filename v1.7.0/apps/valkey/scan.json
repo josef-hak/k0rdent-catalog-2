@@ -1,0 +1,38 @@
+{
+  "charts": {
+    "valkey": {
+      "versions": [
+        "0.1.0"
+      ],
+      "scans": {
+        "0.1.0": {
+          "images": [
+            {
+              "image": "ghcr.io/hyperspike/valkey-operator:v0.0.59",
+              "critical": 1,
+              "high": 19,
+              "medium": 33,
+              "low": 2,
+              "unknown": 1,
+              "total": 56,
+              "packages": 67
+            },
+            {
+              "image": "ghcr.io/valkey-io/valkey:8.0-bookworm",
+              "critical": 6,
+              "high": 25,
+              "medium": 96,
+              "low": 92,
+              "unknown": 16,
+              "total": 235,
+              "packages": 89
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 291
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:59"
+}

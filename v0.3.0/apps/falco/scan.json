@@ -1,0 +1,122 @@
+{
+  "charts": {
+    "falco": {
+      "versions": [
+        "8.0.0",
+        "6.4.0",
+        "4.21.3"
+      ],
+      "scans": {
+        "4.21.3": {
+          "images": [
+            {
+              "image": "docker.io/falcosecurity/falco-driver-loader:0.40.0",
+              "critical": 22,
+              "high": 755,
+              "medium": 2940,
+              "low": 1074,
+              "unknown": 27,
+              "total": 4818,
+              "packages": 228
+            },
+            {
+              "image": "docker.io/falcosecurity/falco:0.40.0-debian",
+              "critical": 8,
+              "high": 65,
+              "medium": 213,
+              "low": 209,
+              "unknown": 18,
+              "total": 513,
+              "packages": 134
+            },
+            {
+              "image": "docker.io/falcosecurity/falcoctl:0.11.0",
+              "critical": 2,
+              "high": 47,
+              "medium": 54,
+              "low": 7,
+              "unknown": 1,
+              "total": 111,
+              "packages": 308
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 5442
+        },
+        "6.4.0": {
+          "images": [
+            {
+              "image": "docker.io/falcosecurity/falco-driver-loader:0.41.3",
+              "critical": 21,
+              "high": 608,
+              "medium": 2525,
+              "low": 1043,
+              "unknown": 27,
+              "total": 4224,
+              "packages": 228
+            },
+            {
+              "image": "docker.io/falcosecurity/falco:0.41.3",
+              "critical": 2,
+              "high": 20,
+              "medium": 50,
+              "low": 54,
+              "unknown": 0,
+              "total": 126,
+              "packages": 40
+            },
+            {
+              "image": "docker.io/falcosecurity/falcoctl:0.11.2",
+              "critical": 2,
+              "high": 44,
+              "medium": 53,
+              "low": 6,
+              "unknown": 1,
+              "total": 106,
+              "packages": 309
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 4456
+        },
+        "8.0.0": {
+          "images": [
+            {
+              "image": "docker.io/falcosecurity/falco-driver-loader:0.43.0",
+              "critical": 21,
+              "high": 397,
+              "medium": 1993,
+              "low": 985,
+              "unknown": 26,
+              "total": 3422,
+              "packages": 228
+            },
+            {
+              "image": "docker.io/falcosecurity/falco:0.43.0",
+              "critical": 2,
+              "high": 16,
+              "medium": 31,
+              "low": 26,
+              "unknown": 0,
+              "total": 75,
+              "packages": 41
+            },
+            {
+              "image": "docker.io/falcosecurity/falcoctl:0.12.2",
+              "critical": 2,
+              "high": 38,
+              "medium": 24,
+              "low": 2,
+              "unknown": 1,
+              "total": 67,
+              "packages": 324
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 3564
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:57"
+}

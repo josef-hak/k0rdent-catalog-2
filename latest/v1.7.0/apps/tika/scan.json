@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "tika": {
+      "versions": [
+        "3.2.2"
+      ],
+      "scans": {
+        "3.2.2": {
+          "images": [
+            {
+              "image": "apache/tika:3.2.2.0-full",
+              "critical": 0,
+              "high": 14,
+              "medium": 111,
+              "low": 17,
+              "unknown": 0,
+              "total": 142,
+              "packages": 479
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 142
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:57"
+}

@@ -1,0 +1,48 @@
+{
+  "charts": {
+    "penpot": {
+      "versions": [
+        "0.28.0"
+      ],
+      "scans": {
+        "0.28.0": {
+          "images": [
+            {
+              "image": "penpotapp/backend:2.10.1",
+              "critical": 1,
+              "high": 41,
+              "medium": 25,
+              "low": 1,
+              "unknown": 0,
+              "total": 68,
+              "packages": 355
+            },
+            {
+              "image": "penpotapp/exporter:2.10.1",
+              "critical": 0,
+              "high": 37,
+              "medium": 284,
+              "low": 142,
+              "unknown": 0,
+              "total": 463,
+              "packages": 571
+            },
+            {
+              "image": "penpotapp/frontend:2.10.1",
+              "critical": 8,
+              "high": 64,
+              "medium": 159,
+              "low": 191,
+              "unknown": 37,
+              "total": 459,
+              "packages": 149
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 990
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:58"
+}

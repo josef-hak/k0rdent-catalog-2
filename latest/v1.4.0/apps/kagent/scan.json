@@ -1,0 +1,58 @@
+{
+  "charts": {
+    "kagent": {
+      "versions": [
+        "0.3.13"
+      ],
+      "scans": {
+        "0.3.13": {
+          "images": [
+            {
+              "image": "argoproj/rollouts-demo:blue",
+              "critical": 5,
+              "high": 52,
+              "medium": 53,
+              "low": 4,
+              "unknown": 0,
+              "total": 114,
+              "packages": 2
+            },
+            {
+              "image": "cr.kagent.dev/kagent-dev/kagent/app:0.3.13",
+              "critical": 12,
+              "high": 222,
+              "medium": 288,
+              "low": 109,
+              "unknown": 8,
+              "total": 639,
+              "packages": 495
+            },
+            {
+              "image": "cr.kagent.dev/kagent-dev/kagent/controller:0.3.13",
+              "critical": 2,
+              "high": 30,
+              "medium": 32,
+              "low": 2,
+              "unknown": 1,
+              "total": 67,
+              "packages": 103
+            },
+            {
+              "image": "cr.kagent.dev/kagent-dev/kagent/ui:0.3.13",
+              "critical": 4,
+              "high": 52,
+              "medium": 112,
+              "low": 82,
+              "unknown": 4,
+              "total": 254,
+              "packages": 89
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 1074
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:57"
+}

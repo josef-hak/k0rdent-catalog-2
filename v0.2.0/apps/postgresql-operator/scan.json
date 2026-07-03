@@ -1,0 +1,105 @@
+{
+  "charts": {
+    "postgres-operator": {
+      "versions": [
+        "1.15.1",
+        "1.14.0"
+      ],
+      "scans": {
+        "1.14.0": {
+          "images": [
+            {
+              "image": "ghcr.io/zalando/postgres-operator/logical-backup:v1.13.0",
+              "critical": 0,
+              "high": 35,
+              "medium": 486,
+              "low": 228,
+              "unknown": 0,
+              "total": 749,
+              "packages": 398
+            },
+            {
+              "image": "ghcr.io/zalando/postgres-operator:v1.14.0",
+              "critical": 3,
+              "high": 52,
+              "medium": 65,
+              "low": 32,
+              "unknown": 1,
+              "total": 153,
+              "packages": 82
+            },
+            {
+              "image": "ghcr.io/zalando/spilo-17:4.0-p2",
+              "critical": 2,
+              "high": 58,
+              "medium": 536,
+              "low": 163,
+              "unknown": 1,
+              "total": 760,
+              "packages": 578
+            },
+            {
+              "image": "registry.opensource.zalan.do/acid/pgbouncer:master-32",
+              "critical": 1,
+              "high": 25,
+              "medium": 29,
+              "low": 31,
+              "unknown": 0,
+              "total": 86,
+              "packages": 35
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 1748
+        },
+        "1.15.1": {
+          "images": [
+            {
+              "image": "ghcr.io/zalando/postgres-operator/logical-backup:v1.15.1",
+              "critical": 0,
+              "high": 34,
+              "medium": 210,
+              "low": 175,
+              "unknown": 0,
+              "total": 419,
+              "packages": 404
+            },
+            {
+              "image": "ghcr.io/zalando/postgres-operator:v1.15.1",
+              "critical": 3,
+              "high": 45,
+              "medium": 45,
+              "low": 41,
+              "unknown": 1,
+              "total": 135,
+              "packages": 85
+            },
+            {
+              "image": "ghcr.io/zalando/spilo-17:4.0-p3",
+              "critical": 2,
+              "high": 55,
+              "medium": 426,
+              "low": 140,
+              "unknown": 1,
+              "total": 624,
+              "packages": 588
+            },
+            {
+              "image": "registry.opensource.zalan.do/acid/pgbouncer:master-32",
+              "critical": 1,
+              "high": 25,
+              "medium": 29,
+              "low": 31,
+              "unknown": 0,
+              "total": 86,
+              "packages": 35
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 1264
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 09:01"
+}

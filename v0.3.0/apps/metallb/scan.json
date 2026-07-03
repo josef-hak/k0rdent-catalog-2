@@ -1,0 +1,85 @@
+{
+  "charts": {
+    "metallb": {
+      "versions": [
+        "0.15.3",
+        "0.14.7"
+      ],
+      "scans": {
+        "0.14.7": {
+          "images": [
+            {
+              "image": "quay.io/frrouting/frr:9.1.0",
+              "critical": 2,
+              "high": 21,
+              "medium": 37,
+              "low": 17,
+              "unknown": 0,
+              "total": 77,
+              "packages": 71
+            },
+            {
+              "image": "quay.io/metallb/controller:v0.14.7",
+              "critical": 1,
+              "high": 21,
+              "medium": 38,
+              "low": 3,
+              "unknown": 1,
+              "total": 64,
+              "packages": 78
+            },
+            {
+              "image": "quay.io/metallb/speaker:v0.14.7",
+              "critical": 3,
+              "high": 56,
+              "medium": 108,
+              "low": 9,
+              "unknown": 2,
+              "total": 178,
+              "packages": 87
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 319
+        },
+        "0.15.3": {
+          "images": [
+            {
+              "image": "quay.io/frrouting/frr:10.4.1",
+              "critical": 2,
+              "high": 21,
+              "medium": 19,
+              "low": 21,
+              "unknown": 0,
+              "total": 63,
+              "packages": 68
+            },
+            {
+              "image": "quay.io/metallb/controller:v0.15.3",
+              "critical": 1,
+              "high": 18,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 36,
+              "packages": 80
+            },
+            {
+              "image": "quay.io/metallb/speaker:v0.15.3",
+              "critical": 3,
+              "high": 49,
+              "medium": 41,
+              "low": 3,
+              "unknown": 2,
+              "total": 98,
+              "packages": 88
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 197
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:57"
+}

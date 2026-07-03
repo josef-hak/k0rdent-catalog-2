@@ -1,0 +1,122 @@
+{
+  "charts": {
+    "argo-cd": {
+      "versions": [
+        "9.4.1",
+        "8.6.1",
+        "7.8.0"
+      ],
+      "scans": {
+        "7.8.0": {
+          "images": [
+            {
+              "image": "ghcr.io/dexidp/dex:v2.41.1",
+              "critical": 7,
+              "high": 106,
+              "medium": 138,
+              "low": 36,
+              "unknown": 2,
+              "total": 289,
+              "packages": 232
+            },
+            {
+              "image": "public.ecr.aws/docker/library/redis:7.4.2-alpine",
+              "critical": 6,
+              "high": 59,
+              "medium": 63,
+              "low": 23,
+              "unknown": 1,
+              "total": 152,
+              "packages": 21
+            },
+            {
+              "image": "quay.io/argoproj/argocd:v2.14.1",
+              "critical": 8,
+              "high": 109,
+              "medium": 318,
+              "low": 107,
+              "unknown": 2,
+              "total": 544,
+              "packages": 495
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 985
+        },
+        "8.6.1": {
+          "images": [
+            {
+              "image": "ecr-public.aws.com/docker/library/redis:7.2.11-alpine",
+              "critical": 6,
+              "high": 59,
+              "medium": 59,
+              "low": 21,
+              "unknown": 1,
+              "total": 146,
+              "packages": 21
+            },
+            {
+              "image": "ghcr.io/dexidp/dex:v2.44.0",
+              "critical": 7,
+              "high": 95,
+              "medium": 119,
+              "low": 51,
+              "unknown": 2,
+              "total": 274,
+              "packages": 254
+            },
+            {
+              "image": "quay.io/argoproj/argocd:v3.1.8",
+              "critical": 5,
+              "high": 93,
+              "medium": 208,
+              "low": 88,
+              "unknown": 2,
+              "total": 396,
+              "packages": 489
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 816
+        },
+        "9.4.1": {
+          "images": [
+            {
+              "image": "ecr-public.aws.com/docker/library/redis:8.2.3-alpine",
+              "critical": 2,
+              "high": 13,
+              "medium": 15,
+              "low": 20,
+              "unknown": 0,
+              "total": 50,
+              "packages": 22
+            },
+            {
+              "image": "ghcr.io/dexidp/dex:v2.44.0",
+              "critical": 7,
+              "high": 95,
+              "medium": 119,
+              "low": 51,
+              "unknown": 2,
+              "total": 274,
+              "packages": 254
+            },
+            {
+              "image": "quay.io/argoproj/argocd:v3.3.0",
+              "critical": 6,
+              "high": 81,
+              "medium": 73,
+              "low": 9,
+              "unknown": 2,
+              "total": 171,
+              "packages": 500
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 495
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:55"
+}

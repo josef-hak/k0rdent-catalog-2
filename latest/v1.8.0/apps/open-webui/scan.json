@@ -1,0 +1,253 @@
+{
+  "charts": {
+    "open-webui": {
+      "versions": [
+        "14.1.0",
+        "10.2.1",
+        "8.12.3",
+        "8.10.0",
+        "6.20.0",
+        "5.20.0"
+      ],
+      "scans": {
+        "10.2.1": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.7.2",
+              "critical": 49,
+              "high": 577,
+              "medium": 2445,
+              "low": 1061,
+              "unknown": 77,
+              "total": 4209,
+              "packages": 729
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 590,
+              "medium": 2432,
+              "low": 985,
+              "unknown": 45,
+              "total": 4077,
+              "packages": 469
+            },
+            {
+              "image": "ollama/ollama:0.13.3",
+              "critical": 1,
+              "high": 32,
+              "medium": 110,
+              "low": 56,
+              "unknown": 4,
+              "total": 203,
+              "packages": 170
+            },
+            {
+              "image": "redis:7.4.2-alpine3.21",
+              "critical": 6,
+              "high": 59,
+              "medium": 63,
+              "low": 23,
+              "unknown": 1,
+              "total": 152,
+              "packages": 21
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 8641
+        },
+        "14.1.0": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.9.1",
+              "critical": 53,
+              "high": 499,
+              "medium": 2134,
+              "low": 1006,
+              "unknown": 77,
+              "total": 3769,
+              "packages": 1255
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 590,
+              "medium": 2432,
+              "low": 985,
+              "unknown": 45,
+              "total": 4077,
+              "packages": 469
+            },
+            {
+              "image": "ollama/ollama:0.19.0",
+              "critical": 1,
+              "high": 31,
+              "medium": 93,
+              "low": 40,
+              "unknown": 4,
+              "total": 169,
+              "packages": 193
+            },
+            {
+              "image": "redis:7.4.2-alpine3.21",
+              "critical": 6,
+              "high": 59,
+              "medium": 63,
+              "low": 23,
+              "unknown": 1,
+              "total": 152,
+              "packages": 21
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 8167
+        },
+        "5.20.0": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.5.16",
+              "critical": 54,
+              "high": 955,
+              "medium": 3485,
+              "low": 1135,
+              "unknown": 78,
+              "total": 5707,
+              "packages": 704
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 590,
+              "medium": 2432,
+              "low": 985,
+              "unknown": 45,
+              "total": 4077,
+              "packages": 469
+            },
+            {
+              "image": "ollama/ollama:0.5.12",
+              "critical": 1,
+              "high": 30,
+              "medium": 53,
+              "low": 7,
+              "unknown": 4,
+              "total": 95,
+              "packages": 144
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 9879
+        },
+        "6.20.0": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.6.14",
+              "critical": 53,
+              "high": 812,
+              "medium": 3063,
+              "low": 1093,
+              "unknown": 78,
+              "total": 5099,
+              "packages": 725
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 590,
+              "medium": 2432,
+              "low": 985,
+              "unknown": 45,
+              "total": 4077,
+              "packages": 469
+            },
+            {
+              "image": "ollama/ollama:0.9.0",
+              "critical": 1,
+              "high": 29,
+              "medium": 44,
+              "low": 2,
+              "unknown": 4,
+              "total": 80,
+              "packages": 144
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 9256
+        },
+        "8.10.0": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.6.33",
+              "critical": 51,
+              "high": 607,
+              "medium": 2590,
+              "low": 1085,
+              "unknown": 77,
+              "total": 4410,
+              "packages": 719
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 590,
+              "medium": 2432,
+              "low": 985,
+              "unknown": 45,
+              "total": 4077,
+              "packages": 469
+            },
+            {
+              "image": "ollama/ollama:0.12.3",
+              "critical": 1,
+              "high": 32,
+              "medium": 111,
+              "low": 53,
+              "unknown": 4,
+              "total": 201,
+              "packages": 144
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 8688
+        },
+        "8.12.3": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.6.34",
+              "critical": 51,
+              "high": 605,
+              "medium": 2584,
+              "low": 1083,
+              "unknown": 77,
+              "total": 4400,
+              "packages": 719
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 590,
+              "medium": 2432,
+              "low": 985,
+              "unknown": 45,
+              "total": 4077,
+              "packages": 469
+            },
+            {
+              "image": "ollama/ollama:0.12.3",
+              "critical": 1,
+              "high": 32,
+              "medium": 111,
+              "low": 53,
+              "unknown": 4,
+              "total": 201,
+              "packages": 144
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 8678
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 09:07"
+}

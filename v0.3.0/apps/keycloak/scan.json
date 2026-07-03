@@ -1,0 +1,45 @@
+{
+  "charts": {
+    "keycloakx": {
+      "versions": [
+        "7.2.0",
+        "7.1.8"
+      ],
+      "scans": {
+        "7.1.8": {
+          "images": [
+            {
+              "image": "quay.io/keycloak/keycloak:26.5.3",
+              "critical": 2,
+              "high": 43,
+              "medium": 93,
+              "low": 37,
+              "unknown": 0,
+              "total": 175,
+              "packages": 512
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 175
+        },
+        "7.2.0": {
+          "images": [
+            {
+              "image": "quay.io/keycloak/keycloak:26.6.2",
+              "critical": 0,
+              "high": 22,
+              "medium": 65,
+              "low": 24,
+              "unknown": 0,
+              "total": 111,
+              "packages": 524
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 111
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:56"
+}

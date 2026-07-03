@@ -1,0 +1,58 @@
+{
+  "charts": {
+    "k0rdent-istio": {
+      "versions": [
+        "0.4.0"
+      ],
+      "scans": {
+        "0.4.0": {
+          "images": [
+            {
+              "image": "alpine/helm:3.14.0",
+              "critical": 7,
+              "high": 61,
+              "medium": 110,
+              "low": 40,
+              "unknown": 1,
+              "total": 219,
+              "packages": 168
+            },
+            {
+              "image": "docker.io/istio/pilot:1.25.3",
+              "critical": 2,
+              "high": 41,
+              "medium": 160,
+              "low": 94,
+              "unknown": 1,
+              "total": 298,
+              "packages": 291
+            },
+            {
+              "image": "ghcr.io/k0rdent/istio/istio-operator-controller:v0.4.0",
+              "critical": 2,
+              "high": 35,
+              "medium": 34,
+              "low": 2,
+              "unknown": 1,
+              "total": 74,
+              "packages": 133
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-istio-csr:v0.14.0",
+              "critical": 2,
+              "high": 39,
+              "medium": 46,
+              "low": 2,
+              "unknown": 1,
+              "total": 90,
+              "packages": 137
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 681
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:55"
+}

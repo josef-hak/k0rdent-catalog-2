@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "strimzi-kafka-operator": {
+      "versions": [
+        "0.47.0"
+      ],
+      "scans": {
+        "0.47.0": {
+          "images": [
+            {
+              "image": "quay.io/strimzi/operator:0.47.0",
+              "critical": 0,
+              "high": 53,
+              "medium": 251,
+              "low": 149,
+              "unknown": 0,
+              "total": 453,
+              "packages": 252
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 453
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:58"
+}

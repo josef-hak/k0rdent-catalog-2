@@ -1,0 +1,98 @@
+{
+  "charts": {
+    "harbor": {
+      "versions": [
+        "1.18.3"
+      ],
+      "scans": {
+        "1.18.3": {
+          "images": [
+            {
+              "image": "goharbor/harbor-core:v2.14.3",
+              "critical": 8,
+              "high": 80,
+              "medium": 59,
+              "low": 6,
+              "unknown": 1,
+              "total": 154,
+              "packages": 199
+            },
+            {
+              "image": "goharbor/harbor-db:v2.14.3",
+              "critical": 13,
+              "high": 72,
+              "medium": 57,
+              "low": 8,
+              "unknown": 0,
+              "total": 150,
+              "packages": 114
+            },
+            {
+              "image": "goharbor/harbor-jobservice:v2.14.3",
+              "critical": 8,
+              "high": 79,
+              "medium": 56,
+              "low": 6,
+              "unknown": 1,
+              "total": 150,
+              "packages": 169
+            },
+            {
+              "image": "goharbor/harbor-portal:v2.14.3",
+              "critical": 13,
+              "high": 62,
+              "medium": 49,
+              "low": 5,
+              "unknown": 0,
+              "total": 129,
+              "packages": 90
+            },
+            {
+              "image": "goharbor/harbor-registryctl:v2.14.3",
+              "critical": 8,
+              "high": 90,
+              "medium": 63,
+              "low": 6,
+              "unknown": 1,
+              "total": 168,
+              "packages": 127
+            },
+            {
+              "image": "goharbor/redis-photon:v2.14.3",
+              "critical": 13,
+              "high": 62,
+              "medium": 49,
+              "low": 5,
+              "unknown": 0,
+              "total": 129,
+              "packages": 90
+            },
+            {
+              "image": "goharbor/registry-photon:v2.14.3",
+              "critical": 7,
+              "high": 60,
+              "medium": 46,
+              "low": 5,
+              "unknown": 0,
+              "total": 118,
+              "packages": 50
+            },
+            {
+              "image": "goharbor/trivy-adapter-photon:v2.14.3",
+              "critical": 8,
+              "high": 117,
+              "medium": 87,
+              "low": 11,
+              "unknown": 2,
+              "total": 225,
+              "packages": 494
+            }
+          ],
+          "totalImages": 8,
+          "totalVulnerabilities": 1223
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:55"
+}

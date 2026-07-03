@@ -1,0 +1,45 @@
+{
+  "charts": {
+    "mlflow": {
+      "versions": [
+        "1.8.1",
+        "1.7.1"
+      ],
+      "scans": {
+        "1.7.1": {
+          "images": [
+            {
+              "image": "burakince/mlflow:3.4.0",
+              "critical": 13,
+              "high": 79,
+              "medium": 139,
+              "low": 138,
+              "unknown": 36,
+              "total": 405,
+              "packages": 269
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 405
+        },
+        "1.8.1": {
+          "images": [
+            {
+              "image": "burakince/mlflow:3.7.0",
+              "critical": 11,
+              "high": 64,
+              "medium": 119,
+              "low": 132,
+              "unknown": 36,
+              "total": 362,
+              "packages": 236
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 362
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:59"
+}

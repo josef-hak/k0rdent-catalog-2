@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "wandb-operator": {
+      "versions": [
+        "1.4.1"
+      ],
+      "scans": {
+        "1.4.1": {
+          "images": [
+            {
+              "image": "wandb/controller:latest",
+              "critical": 0,
+              "high": 31,
+              "medium": 123,
+              "low": 73,
+              "unknown": 1,
+              "total": 228,
+              "packages": 256
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 228
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:59"
+}

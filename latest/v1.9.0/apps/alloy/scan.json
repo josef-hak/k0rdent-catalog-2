@@ -1,0 +1,65 @@
+{
+  "charts": {
+    "alloy": {
+      "versions": [
+        "1.7.0",
+        "1.6.1"
+      ],
+      "scans": {
+        "1.6.1": {
+          "images": [
+            {
+              "image": "docker.io/grafana/alloy:v1.13.2",
+              "critical": 1,
+              "high": 42,
+              "medium": 85,
+              "low": 41,
+              "unknown": 1,
+              "total": 170,
+              "packages": 1062
+            },
+            {
+              "image": "quay.io/prometheus-operator/prometheus-config-reloader:v0.81.0",
+              "critical": 1,
+              "high": 31,
+              "medium": 40,
+              "low": 2,
+              "unknown": 1,
+              "total": 75,
+              "packages": 111
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 245
+        },
+        "1.7.0": {
+          "images": [
+            {
+              "image": "docker.io/grafana/alloy:v1.15.0",
+              "critical": 0,
+              "high": 35,
+              "medium": 75,
+              "low": 38,
+              "unknown": 1,
+              "total": 149,
+              "packages": 1124
+            },
+            {
+              "image": "quay.io/prometheus-operator/prometheus-config-reloader:v0.81.0",
+              "critical": 1,
+              "high": 31,
+              "medium": 40,
+              "low": 2,
+              "unknown": 1,
+              "total": 75,
+              "packages": 111
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 224
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:56"
+}

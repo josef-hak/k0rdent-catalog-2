@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "influxdb2": {
+      "versions": [
+        "2.1.2"
+      ],
+      "scans": {
+        "2.1.2": {
+          "images": [
+            {
+              "image": "influxdb:2.7.4-alpine",
+              "critical": 11,
+              "high": 113,
+              "medium": 233,
+              "low": 38,
+              "unknown": 3,
+              "total": 398,
+              "packages": 266
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 398
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:55"
+}

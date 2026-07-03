@@ -1,0 +1,108 @@
+{
+  "charts": {
+    "msr": {
+      "versions": [
+        "4.13.2"
+      ],
+      "scans": {
+        "4.13.2": {
+          "images": [
+            {
+              "image": "registry.mirantis.com/harbor/harbor-core:v4.13.2",
+              "critical": 11,
+              "high": 110,
+              "medium": 111,
+              "low": 11,
+              "unknown": 1,
+              "total": 244,
+              "packages": 197
+            },
+            {
+              "image": "registry.mirantis.com/harbor/harbor-db:v4.13.2",
+              "critical": 16,
+              "high": 149,
+              "medium": 136,
+              "low": 23,
+              "unknown": 0,
+              "total": 324,
+              "packages": 109
+            },
+            {
+              "image": "registry.mirantis.com/harbor/harbor-jobservice:v4.13.2",
+              "critical": 11,
+              "high": 109,
+              "medium": 108,
+              "low": 11,
+              "unknown": 1,
+              "total": 240,
+              "packages": 167
+            },
+            {
+              "image": "registry.mirantis.com/harbor/harbor-portal:v4.13.2",
+              "critical": 16,
+              "high": 91,
+              "medium": 96,
+              "low": 10,
+              "unknown": 0,
+              "total": 213,
+              "packages": 85
+            },
+            {
+              "image": "registry.mirantis.com/harbor/harbor-registryctl:v4.13.2",
+              "critical": 12,
+              "high": 121,
+              "medium": 127,
+              "low": 12,
+              "unknown": 1,
+              "total": 273,
+              "packages": 123
+            },
+            {
+              "image": "registry.mirantis.com/harbor/nginx-photon:v4.13.2",
+              "critical": 16,
+              "high": 91,
+              "medium": 96,
+              "low": 10,
+              "unknown": 0,
+              "total": 213,
+              "packages": 85
+            },
+            {
+              "image": "registry.mirantis.com/harbor/redis-photon:v4.13.2",
+              "critical": 18,
+              "high": 97,
+              "medium": 97,
+              "low": 11,
+              "unknown": 0,
+              "total": 223,
+              "packages": 85
+            },
+            {
+              "image": "registry.mirantis.com/harbor/registry-photon:v4.13.2",
+              "critical": 10,
+              "high": 88,
+              "medium": 94,
+              "low": 10,
+              "unknown": 0,
+              "total": 202,
+              "packages": 48
+            },
+            {
+              "image": "registry.mirantis.com/harbor/trivy-adapter-photon:v4.13.2",
+              "critical": 12,
+              "high": 154,
+              "medium": 161,
+              "low": 18,
+              "unknown": 2,
+              "total": 347,
+              "packages": 458
+            }
+          ],
+          "totalImages": 9,
+          "totalVulnerabilities": 2279
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:58"
+}

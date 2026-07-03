@@ -1,0 +1,62 @@
+{
+  "charts": {
+    "victoriametrics": {
+      "versions": [
+        "0.35.0",
+        "0.30.0",
+        "0.22.0"
+      ],
+      "scans": {
+        "0.22.0": {
+          "images": [
+            {
+              "image": "victoriametrics/victoria-metrics:v1.120.0",
+              "critical": 3,
+              "high": 35,
+              "medium": 54,
+              "low": 43,
+              "unknown": 1,
+              "total": 136,
+              "packages": 37
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 136
+        },
+        "0.30.0": {
+          "images": [
+            {
+              "image": "victoriametrics/victoria-metrics:v1.135.0",
+              "critical": 3,
+              "high": 33,
+              "medium": 29,
+              "low": 37,
+              "unknown": 1,
+              "total": 103,
+              "packages": 37
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 103
+        },
+        "0.35.0": {
+          "images": [
+            {
+              "image": "victoriametrics/victoria-metrics:v1.140.0",
+              "critical": 2,
+              "high": 25,
+              "medium": 21,
+              "low": 20,
+              "unknown": 1,
+              "total": 69,
+              "packages": 37
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 69
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:57"
+}

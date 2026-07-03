@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "dapr-dashboard": {
+      "versions": [
+        "0.15.0"
+      ],
+      "scans": {
+        "0.15.0": {
+          "images": [
+            {
+              "image": "docker.io/daprio/dashboard:0.15.0",
+              "critical": 2,
+              "high": 44,
+              "medium": 59,
+              "low": 4,
+              "unknown": 1,
+              "total": 110,
+              "packages": 165
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 110
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:54"
+}

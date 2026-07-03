@@ -1,0 +1,92 @@
+{
+  "charts": {
+    "grafana": {
+      "versions": [
+        "10.5.15",
+        "10.1.0",
+        "9.3.6"
+      ],
+      "scans": {
+        "10.1.0": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "unknown": 0,
+              "total": 30,
+              "packages": 22
+            },
+            {
+              "image": "docker.io/grafana/grafana:12.2.0",
+              "critical": 9,
+              "high": 83,
+              "medium": 120,
+              "low": 52,
+              "unknown": 3,
+              "total": 267,
+              "packages": 570
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 297
+        },
+        "10.5.15": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "unknown": 0,
+              "total": 30,
+              "packages": 22
+            },
+            {
+              "image": "docker.io/grafana/grafana:12.3.1",
+              "critical": 8,
+              "high": 81,
+              "medium": 90,
+              "low": 46,
+              "unknown": 3,
+              "total": 228,
+              "packages": 592
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 258
+        },
+        "9.3.6": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "unknown": 0,
+              "total": 30,
+              "packages": 22
+            },
+            {
+              "image": "docker.io/grafana/grafana:12.1.0",
+              "critical": 13,
+              "high": 95,
+              "medium": 164,
+              "low": 34,
+              "unknown": 3,
+              "total": 309,
+              "packages": 570
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 339
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:56"
+}

@@ -1,0 +1,151 @@
+{
+  "charts": {
+    "helm-slurm-cluster": {
+      "versions": [
+        "1.22.1"
+      ],
+      "scans": {
+        "1.22.1": {
+          "images": [
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/controller_slurmctld:1.22.1-noble-slurm24.11.6",
+              "critical": 17,
+              "high": 130,
+              "medium": 4022,
+              "low": 360,
+              "unknown": 0,
+              "total": 4529,
+              "packages": 297
+            },
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/controller_slurmdbd:1.22.1-noble-slurm24.11.6",
+              "critical": 17,
+              "high": 130,
+              "medium": 4022,
+              "low": 360,
+              "unknown": 0,
+              "total": 4529,
+              "packages": 297
+            },
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/login_sshd:1.22.1-noble-slurm24.11.6",
+              "critical": 17,
+              "high": 144,
+              "medium": 4145,
+              "low": 429,
+              "unknown": 0,
+              "total": 4735,
+              "packages": 430
+            },
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/munge:1.22.1-noble-slurm24.11.6",
+              "critical": 0,
+              "high": 2,
+              "medium": 74,
+              "low": 32,
+              "unknown": 0,
+              "total": 108,
+              "packages": 96
+            },
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/populate_jail:1.22.1-noble-slurm24.11.6",
+              "critical": 4,
+              "high": 46,
+              "medium": 51,
+              "low": 21,
+              "unknown": 1,
+              "total": 123,
+              "packages": 105
+            },
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/sconfigcontroller:1.22.1",
+              "critical": 3,
+              "high": 33,
+              "medium": 29,
+              "low": 20,
+              "unknown": 1,
+              "total": 86,
+              "packages": 93
+            },
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/slurmrestd:1.22.1-noble-slurm24.11.6",
+              "critical": 17,
+              "high": 130,
+              "medium": 4022,
+              "low": 360,
+              "unknown": 0,
+              "total": 4529,
+              "packages": 292
+            },
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/soperator-exporter:1.22.1-noble-slurm24.11.6",
+              "critical": 3,
+              "high": 33,
+              "medium": 29,
+              "low": 20,
+              "unknown": 1,
+              "total": 86,
+              "packages": 86
+            },
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/worker_slurmd:1.22.1-noble-slurm24.11.6",
+              "critical": 30,
+              "high": 376,
+              "medium": 4436,
+              "low": 452,
+              "unknown": 9,
+              "total": 5303,
+              "packages": 812
+            }
+          ],
+          "totalImages": 9,
+          "totalVulnerabilities": 24028
+        }
+      }
+    },
+    "helm-soperator": {
+      "versions": [
+        "1.22.1"
+      ],
+      "scans": {
+        "1.22.1": {
+          "images": [
+            {
+              "image": "cr.eu-north1.nebius.cloud/soperator/slurm-operator:1.22.1",
+              "critical": 3,
+              "high": 43,
+              "medium": 35,
+              "low": 20,
+              "unknown": 1,
+              "total": 102,
+              "packages": 91
+            },
+            {
+              "image": "openkruise/kruise-helm-hook:v0.1.0",
+              "critical": 2,
+              "high": 26,
+              "medium": 51,
+              "low": 10,
+              "unknown": 1,
+              "total": 90,
+              "packages": 57
+            },
+            {
+              "image": "openkruise/kruise-manager:v1.8.0",
+              "critical": 6,
+              "high": 86,
+              "medium": 101,
+              "low": 23,
+              "unknown": 2,
+              "total": 218,
+              "packages": 137
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 410
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 09:02"
+}

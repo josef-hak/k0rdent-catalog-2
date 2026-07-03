@@ -1,0 +1,38 @@
+{
+  "charts": {
+    "n8n": {
+      "versions": [
+        "1.0.15"
+      ],
+      "scans": {
+        "1.0.15": {
+          "images": [
+            {
+              "image": "alpine",
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "unknown": 0,
+              "total": 0,
+              "packages": 16
+            },
+            {
+              "image": "n8nio/n8n:1.112.0",
+              "critical": 36,
+              "high": 233,
+              "medium": 246,
+              "low": 88,
+              "unknown": 5,
+              "total": 608,
+              "packages": 1760
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 608
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:58"
+}

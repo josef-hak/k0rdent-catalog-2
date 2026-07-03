@@ -1,0 +1,28 @@
+{
+  "charts": {
+    "tempo": {
+      "versions": [
+        "1.24.4"
+      ],
+      "scans": {
+        "1.24.4": {
+          "images": [
+            {
+              "image": "docker.io/grafana/tempo:2.9.0",
+              "critical": 2,
+              "high": 40,
+              "medium": 36,
+              "low": 2,
+              "unknown": 1,
+              "total": 81,
+              "packages": 376
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 81
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:59"
+}

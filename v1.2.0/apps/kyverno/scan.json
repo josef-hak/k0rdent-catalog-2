@@ -1,0 +1,396 @@
+{
+  "charts": {
+    "kyverno": {
+      "versions": [
+        "3.8.1",
+        "3.7.0",
+        "3.5.2",
+        "3.4.4",
+        "3.2.6"
+      ],
+      "scans": {
+        "3.2.6": {
+          "images": [
+            {
+              "image": "ghcr.io/kyverno/background-controller:v1.12.5",
+              "critical": 3,
+              "high": 51,
+              "medium": 61,
+              "low": 9,
+              "unknown": 1,
+              "total": 125,
+              "packages": 315
+            },
+            {
+              "image": "ghcr.io/kyverno/cleanup-controller:v1.12.5",
+              "critical": 3,
+              "high": 51,
+              "medium": 61,
+              "low": 9,
+              "unknown": 1,
+              "total": 125,
+              "packages": 315
+            },
+            {
+              "image": "ghcr.io/kyverno/kyverno-cli:v1.12.5",
+              "critical": 4,
+              "high": 54,
+              "medium": 67,
+              "low": 11,
+              "unknown": 1,
+              "total": 137,
+              "packages": 353
+            },
+            {
+              "image": "ghcr.io/kyverno/kyverno:v1.12.5",
+              "critical": 3,
+              "high": 51,
+              "medium": 61,
+              "low": 9,
+              "unknown": 1,
+              "total": 125,
+              "packages": 318
+            },
+            {
+              "image": "ghcr.io/kyverno/kyvernopre:v1.12.5",
+              "critical": 3,
+              "high": 51,
+              "medium": 61,
+              "low": 9,
+              "unknown": 1,
+              "total": 125,
+              "packages": 314
+            },
+            {
+              "image": "ghcr.io/kyverno/reports-controller:v1.12.5",
+              "critical": 3,
+              "high": 51,
+              "medium": 61,
+              "low": 9,
+              "unknown": 1,
+              "total": 125,
+              "packages": 315
+            }
+          ],
+          "totalImages": 6,
+          "totalVulnerabilities": 762
+        },
+        "3.4.4": {
+          "images": [
+            {
+              "image": "reg.kyverno.io/kyverno/background-controller:v1.14.4",
+              "critical": 2,
+              "high": 40,
+              "medium": 47,
+              "low": 6,
+              "unknown": 1,
+              "total": 96,
+              "packages": 326
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/cleanup-controller:v1.14.4",
+              "critical": 2,
+              "high": 40,
+              "medium": 47,
+              "low": 6,
+              "unknown": 1,
+              "total": 96,
+              "packages": 327
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyverno-cli:v1.14.4",
+              "critical": 2,
+              "high": 42,
+              "medium": 53,
+              "low": 8,
+              "unknown": 1,
+              "total": 106,
+              "packages": 361
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyverno:v1.14.4",
+              "critical": 2,
+              "high": 40,
+              "medium": 47,
+              "low": 6,
+              "unknown": 1,
+              "total": 96,
+              "packages": 329
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyvernopre:v1.14.4",
+              "critical": 2,
+              "high": 40,
+              "medium": 47,
+              "low": 6,
+              "unknown": 1,
+              "total": 96,
+              "packages": 326
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/reports-controller:v1.14.4",
+              "critical": 2,
+              "high": 40,
+              "medium": 47,
+              "low": 6,
+              "unknown": 1,
+              "total": 96,
+              "packages": 326
+            }
+          ],
+          "totalImages": 6,
+          "totalVulnerabilities": 586
+        },
+        "3.5.2": {
+          "images": [
+            {
+              "image": "reg.kyverno.io/kyverno/background-controller:v1.15.2",
+              "critical": 3,
+              "high": 48,
+              "medium": 45,
+              "low": 5,
+              "unknown": 1,
+              "total": 102,
+              "packages": 328
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/cleanup-controller:v1.15.2",
+              "critical": 3,
+              "high": 48,
+              "medium": 45,
+              "low": 5,
+              "unknown": 1,
+              "total": 102,
+              "packages": 329
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyverno-cli:v1.15.2",
+              "critical": 3,
+              "high": 50,
+              "medium": 51,
+              "low": 7,
+              "unknown": 1,
+              "total": 112,
+              "packages": 364
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyverno:v1.15.2",
+              "critical": 3,
+              "high": 48,
+              "medium": 45,
+              "low": 5,
+              "unknown": 1,
+              "total": 102,
+              "packages": 331
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyvernopre:v1.15.2",
+              "critical": 3,
+              "high": 48,
+              "medium": 45,
+              "low": 5,
+              "unknown": 1,
+              "total": 102,
+              "packages": 328
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/reports-controller:v1.15.2",
+              "critical": 3,
+              "high": 48,
+              "medium": 45,
+              "low": 5,
+              "unknown": 1,
+              "total": 102,
+              "packages": 328
+            },
+            {
+              "image": "registry.k8s.io/kubectl:v1.32.7",
+              "critical": 2,
+              "high": 34,
+              "medium": 50,
+              "low": 4,
+              "unknown": 1,
+              "total": 91,
+              "packages": 88
+            }
+          ],
+          "totalImages": 7,
+          "totalVulnerabilities": 713
+        },
+        "3.7.0": {
+          "images": [
+            {
+              "image": "ghcr.io/kyverno/readiness-checker:v0.1.0",
+              "critical": 2,
+              "high": 29,
+              "medium": 14,
+              "low": 1,
+              "unknown": 1,
+              "total": 47,
+              "packages": 53
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/background-controller:v1.17.0",
+              "critical": 2,
+              "high": 37,
+              "medium": 21,
+              "low": 3,
+              "unknown": 1,
+              "total": 64,
+              "packages": 345
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/cleanup-controller:v1.17.0",
+              "critical": 2,
+              "high": 37,
+              "medium": 21,
+              "low": 3,
+              "unknown": 1,
+              "total": 64,
+              "packages": 346
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyverno-cli:v1.17.0",
+              "critical": 2,
+              "high": 39,
+              "medium": 27,
+              "low": 5,
+              "unknown": 1,
+              "total": 74,
+              "packages": 383
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyverno:v1.17.0",
+              "critical": 2,
+              "high": 37,
+              "medium": 21,
+              "low": 3,
+              "unknown": 1,
+              "total": 64,
+              "packages": 348
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyvernopre:v1.17.0",
+              "critical": 2,
+              "high": 37,
+              "medium": 21,
+              "low": 3,
+              "unknown": 1,
+              "total": 64,
+              "packages": 345
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/reports-controller:v1.17.0",
+              "critical": 2,
+              "high": 37,
+              "medium": 21,
+              "low": 3,
+              "unknown": 1,
+              "total": 64,
+              "packages": 345
+            },
+            {
+              "image": "registry.k8s.io/kubectl:v1.34.3",
+              "critical": 2,
+              "high": 30,
+              "medium": 24,
+              "low": 2,
+              "unknown": 1,
+              "total": 59,
+              "packages": 89
+            }
+          ],
+          "totalImages": 8,
+          "totalVulnerabilities": 500
+        },
+        "3.8.1": {
+          "images": [
+            {
+              "image": "ghcr.io/kyverno/readiness-checker:latest",
+              "critical": 1,
+              "high": 12,
+              "medium": 2,
+              "low": 0,
+              "unknown": 0,
+              "total": 15,
+              "packages": 53
+            },
+            {
+              "image": "ghcr.io/kyverno/readiness-checker:v1.18.1",
+              "critical": 0,
+              "high": 11,
+              "medium": 6,
+              "low": 0,
+              "unknown": 1,
+              "total": 18,
+              "packages": 53
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/background-controller:v1.18.1",
+              "critical": 0,
+              "high": 24,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 41,
+              "packages": 341
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/cleanup-controller:v1.18.1",
+              "critical": 0,
+              "high": 24,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 41,
+              "packages": 342
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyverno-cli:v1.18.1",
+              "critical": 0,
+              "high": 26,
+              "medium": 18,
+              "low": 2,
+              "unknown": 1,
+              "total": 47,
+              "packages": 390
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyverno:v1.18.1",
+              "critical": 0,
+              "high": 24,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 41,
+              "packages": 344
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/kyvernopre:v1.18.1",
+              "critical": 0,
+              "high": 24,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 41,
+              "packages": 341
+            },
+            {
+              "image": "reg.kyverno.io/kyverno/reports-controller:v1.18.1",
+              "critical": 0,
+              "high": 24,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 41,
+              "packages": 341
+            }
+          ],
+          "totalImages": 8,
+          "totalVulnerabilities": 285
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:59"
+}

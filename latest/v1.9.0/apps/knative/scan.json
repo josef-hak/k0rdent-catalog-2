@@ -1,0 +1,92 @@
+{
+  "charts": {
+    "knative-operator": {
+      "versions": [
+        "1.21.0",
+        "1.19.0",
+        "1.17.4"
+      ],
+      "scans": {
+        "1.17.4": {
+          "images": [
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.17.4",
+              "critical": 2,
+              "high": 20,
+              "medium": 32,
+              "low": 2,
+              "unknown": 1,
+              "total": 57,
+              "packages": 90
+            },
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.17.4",
+              "critical": 2,
+              "high": 20,
+              "medium": 32,
+              "low": 2,
+              "unknown": 1,
+              "total": 57,
+              "packages": 80
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 114
+        },
+        "1.19.0": {
+          "images": [
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.19.0",
+              "critical": 2,
+              "high": 21,
+              "medium": 28,
+              "low": 2,
+              "unknown": 1,
+              "total": 54,
+              "packages": 99
+            },
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.19.0",
+              "critical": 2,
+              "high": 21,
+              "medium": 28,
+              "low": 2,
+              "unknown": 1,
+              "total": 54,
+              "packages": 90
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 108
+        },
+        "1.21.0": {
+          "images": [
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.0",
+              "critical": 2,
+              "high": 19,
+              "medium": 12,
+              "low": 1,
+              "unknown": 1,
+              "total": 35,
+              "packages": 103
+            },
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.0",
+              "critical": 2,
+              "high": 19,
+              "medium": 12,
+              "low": 1,
+              "unknown": 1,
+              "total": 35,
+              "packages": 94
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 70
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:55"
+}

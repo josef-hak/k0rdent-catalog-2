@@ -1,0 +1,246 @@
+{
+  "charts": {
+    "cert-manager": {
+      "versions": [
+        "1.20.2",
+        "1.19.3",
+        "1.18.2",
+        "1.17.2",
+        "1.16.2"
+      ],
+      "scans": {
+        "1.16.2": {
+          "images": [
+            {
+              "image": "quay.io/jetstack/cert-manager-cainjector:v1.16.2",
+              "critical": 1,
+              "high": 32,
+              "medium": 42,
+              "low": 3,
+              "unknown": 1,
+              "total": 79,
+              "packages": 74
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-controller:v1.16.2",
+              "critical": 2,
+              "high": 36,
+              "medium": 43,
+              "low": 3,
+              "unknown": 1,
+              "total": 85,
+              "packages": 159
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-startupapicheck:v1.16.2",
+              "critical": 1,
+              "high": 32,
+              "medium": 42,
+              "low": 3,
+              "unknown": 1,
+              "total": 79,
+              "packages": 87
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-webhook:v1.16.2",
+              "critical": 2,
+              "high": 34,
+              "medium": 42,
+              "low": 3,
+              "unknown": 1,
+              "total": 82,
+              "packages": 94
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 325
+        },
+        "1.17.2": {
+          "images": [
+            {
+              "image": "quay.io/jetstack/cert-manager-cainjector:v1.17.2",
+              "critical": 1,
+              "high": 28,
+              "medium": 36,
+              "low": 2,
+              "unknown": 1,
+              "total": 68,
+              "packages": 74
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-controller:v1.17.2",
+              "critical": 2,
+              "high": 31,
+              "medium": 36,
+              "low": 2,
+              "unknown": 1,
+              "total": 72,
+              "packages": 162
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-startupapicheck:v1.17.2",
+              "critical": 1,
+              "high": 28,
+              "medium": 36,
+              "low": 2,
+              "unknown": 1,
+              "total": 68,
+              "packages": 87
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-webhook:v1.17.2",
+              "critical": 2,
+              "high": 30,
+              "medium": 36,
+              "low": 2,
+              "unknown": 1,
+              "total": 71,
+              "packages": 94
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 279
+        },
+        "1.18.2": {
+          "images": [
+            {
+              "image": "quay.io/jetstack/cert-manager-cainjector:v1.18.2",
+              "critical": 1,
+              "high": 28,
+              "medium": 33,
+              "low": 2,
+              "unknown": 1,
+              "total": 65,
+              "packages": 74
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-controller:v1.18.2",
+              "critical": 2,
+              "high": 31,
+              "medium": 33,
+              "low": 2,
+              "unknown": 1,
+              "total": 69,
+              "packages": 162
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-startupapicheck:v1.18.2",
+              "critical": 1,
+              "high": 28,
+              "medium": 33,
+              "low": 2,
+              "unknown": 1,
+              "total": 65,
+              "packages": 87
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-webhook:v1.18.2",
+              "critical": 2,
+              "high": 30,
+              "medium": 33,
+              "low": 2,
+              "unknown": 1,
+              "total": 68,
+              "packages": 94
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 267
+        },
+        "1.19.3": {
+          "images": [
+            {
+              "image": "quay.io/jetstack/cert-manager-cainjector:v1.19.3",
+              "critical": 1,
+              "high": 26,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 44,
+              "packages": 75
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-controller:v1.19.3",
+              "critical": 2,
+              "high": 29,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 48,
+              "packages": 166
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-startupapicheck:v1.19.3",
+              "critical": 1,
+              "high": 26,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 44,
+              "packages": 84
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-webhook:v1.19.3",
+              "critical": 2,
+              "high": 28,
+              "medium": 15,
+              "low": 1,
+              "unknown": 1,
+              "total": 47,
+              "packages": 95
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 183
+        },
+        "1.20.2": {
+          "images": [
+            {
+              "image": "quay.io/jetstack/cert-manager-cainjector:v1.20.2",
+              "critical": 0,
+              "high": 21,
+              "medium": 11,
+              "low": 0,
+              "unknown": 1,
+              "total": 33,
+              "packages": 74
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-controller:v1.20.2",
+              "critical": 0,
+              "high": 21,
+              "medium": 11,
+              "low": 0,
+              "unknown": 1,
+              "total": 33,
+              "packages": 170
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-startupapicheck:v1.20.2",
+              "critical": 0,
+              "high": 21,
+              "medium": 11,
+              "low": 0,
+              "unknown": 1,
+              "total": 33,
+              "packages": 83
+            },
+            {
+              "image": "quay.io/jetstack/cert-manager-webhook:v1.20.2",
+              "critical": 0,
+              "high": 21,
+              "medium": 11,
+              "low": 0,
+              "unknown": 1,
+              "total": 33,
+              "packages": 94
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 132
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-03 08:55"
+}
